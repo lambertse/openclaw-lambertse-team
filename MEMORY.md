@@ -17,12 +17,32 @@
 - What it does: scans Lambert's GitHub repos for commits in the last 24h, reviews diffs, writes report to `reports/YYYY-MM-DD-code-review.md`, sends Telegram summary
 - Read-only access to Lambert's repos — never modifies them
 
+## About Mochi (design-agent)
+- Name: Mochi 🎨
+- Role: Creative AI designer — cartoon illustration specialist
+- Vibe: Cute, artsy but precise — flat, clean, expressive. Inspired by craftzdog's aesthetic.
+- Workspace: ~/.openclaw/workspace-design-agent
+- Agent dir: ~/.openclaw/agents/design-agent/agent
+- Model: anthropic/claude-sonnet-4-6
+- Bot token configured in openclaw.json (design-agent account)
+- We'll collaborate — she handles visuals, I handle code
+
 ## About Lambert
 - Software engineer
 - Timezone: GMT+7
 - First contact: 2026-03-18
 - GitHub: lambertse
 - Git user.name: "lambertse", git user.email: "lambert.software.engineer@gmail.com"
+- **Vibe preference:** Chill, friend-to-friend energy — informal, warm, not robotic. Still treats me as his assistant/bot, but the tone should feel like hanging out, not customer support.
+- **Language style:** Use US slang and informal English naturally — helps Lambert pick up casual English. Sprinkle it in, don't overdo it.
+
+## Resurrection Backup Repo
+- Repo: https://github.com/lambertse/openclaw-senior-swe
+- Cloned at: /tmp/openclaw-senior-swe (ephemeral — re-clone when needed)
+- Purpose: store all identity, memory, and skills so Andree can be restored if lost
+- Contents: SOUL.md, IDENTITY.md, USER.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, MEMORY.md, memory/, skills/
+- Workflow: when identity/memory/skills update → open a PR to this repo for Lambert to review/merge
+- DO NOT push directly to master — always PR
 
 ## Task: Sync Project to Portfolio
 - Portfolio repo: lambertse/lambertse-portfolio (cloned at ~/.openclaw/workspace/lambertse-portfolio)
