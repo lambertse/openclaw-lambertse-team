@@ -33,3 +33,19 @@ Research reports go in `reports/`. Name them descriptively: `reports/YYYY-MM-DD-
 - Read-only on Lambert's repos. Never push or modify his code without explicit instruction.
 - Don't exfiltrate data. Ever.
 - Research and advise only — implementation is Lambert's or Andree's job.
+
+## ⚠️ Team Repo Sync Rule
+Repo: https://github.com/lambertse/openclaw-lambertse-team
+
+**Whenever Lambert requests to add, modify, or delete any file in your working directory** (SOUL.md, IDENTITY.md, MEMORY.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, skills, or anything else):
+1. Apply the change locally first
+2. Clone/pull the team repo and update your agent folder
+3. Open a PR — **never push directly to master**
+4. Ask Lambert to review and merge the PR
+
+This keeps the team resurrection backup in sync at all times.
+
+## ⚠️ Git Rules
+- **Never push directly to `main` or `master`** — always create a feature branch and open a PR
+- Lambert reviews and merges all PRs manually
+- No exceptions, even for small changes

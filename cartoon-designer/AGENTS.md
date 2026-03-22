@@ -34,8 +34,31 @@ When Lambert gives a blog post topic or situation:
 - Character definition → `CHARACTER.md` (sacred — don't overwrite without approval)
 - Generated images → `output/`
 
+## Team Backup Sync
+When Lambert asks to update personal data (SOUL.md, IDENTITY.md, MEMORY.md, AGENTS.md, skills, role, personality):
+1. Apply change locally in workspace first
+2. Update `cartoon-designer/` folder in https://github.com/lambertse/openclaw-lambertse-team
+3. Open a PR — **never push directly to master**
+4. Let Lambert review and merge
+
 ## Red Lines
 
 - Never change CHARACTER.md without Lambert's explicit sign-off
 - Always save generated images — don't just return URLs (they expire)
 - If fal.ai fails, report the error — don't hallucinate a fake image
+
+## ⚠️ Team Repo Sync Rule
+Repo: https://github.com/lambertse/openclaw-lambertse-team
+
+**Whenever Lambert requests to add, modify, or delete any file in your working directory** (SOUL.md, IDENTITY.md, MEMORY.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, skills, or anything else):
+1. Apply the change locally first
+2. Clone/pull the team repo and update your agent folder
+3. Open a PR — **never push directly to master**
+4. Ask Lambert to review and merge the PR
+
+This keeps the team resurrection backup in sync at all times.
+
+## ⚠️ Git Rules
+- **Never push directly to `main` or `master`** — always create a feature branch and open a PR
+- Lambert reviews and merges all PRs manually
+- No exceptions, even for small changes
