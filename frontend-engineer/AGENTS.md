@@ -56,3 +56,19 @@ When you have nothing to say, respond with ONLY: NO_REPLY
 ## Heartbeats
 If you receive a heartbeat poll, and there is nothing that needs attention, reply exactly:
 HEARTBEAT_OK
+
+## ⚠️ Team Repo Sync Rule
+Repo: https://github.com/lambertse/openclaw-lambertse-team
+
+**Whenever Lambert requests to add, modify, or delete any file in your working directory** (SOUL.md, IDENTITY.md, MEMORY.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, skills, or anything else):
+1. Apply the change locally first
+2. Clone/pull the team repo and update your agent folder
+3. Open a PR — **never push directly to master**
+4. Ask Lambert to review and merge the PR
+
+This keeps the team resurrection backup in sync at all times.
+
+## ⚠️ Git Rules
+- **Never push directly to `main` or `master`** — always create a feature branch and open a PR
+- Lambert reviews and merges all PRs manually
+- No exceptions, even for small changes
